@@ -1,0 +1,64 @@
+# Misc
+.DS_Store
+
+# Environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
+
+# Private Node Modules
+node_modules/
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+# Local History for Visual Studio Code
+.history/
+ 
+# Common credential files
+**/credentials.json
+**/client_secrets.json
+**/client_secret.json
+*creds*
+*.dat
+*password*
+*.httr-oauth*
+
+# Private Files
+*.json
+*.csv
+*.csv.gz
+*.tsv
+*.tsv.gz
+*.xlsx
+
+# Mac/OSX
+.DS_Store
+
+#Deployments
+.vercel
+
+# Dependencies
+/node_modules
+
+# Production
+/build
+
+# Generated files
+.cache-loader
+
+#Docker Container files auto created by VSCode
+.devcontainer
+
