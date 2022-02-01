@@ -421,7 +421,7 @@ const NAV_ITEMS: Array <NavItem> = [
     label: "    Gigs ",
     children: [
       {
-        label: "    MetaGame JobBoard ",
+        label: "    MetaGame Gigs ",
         subLabel: "Find your Web3 path",
         href: " # ",
       },
